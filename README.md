@@ -12,7 +12,7 @@ Execute with:
 
 `$ java runGeneticDecipher <args>`
 
-Where <args> are as follows:
+Where `<args>` are as follows:
 
 | Argument | Meaning               | Type    | Range        |
 | -------- | --------------------- | ------- | ------------ |
