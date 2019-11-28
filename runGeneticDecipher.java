@@ -147,8 +147,6 @@ public class runGeneticDecipher {
 		System.out.println("<arg10> = random seed (integer, [1, n])");
 		System.out.println("<arg11> = filename of input encrypted text (String)\n");
 		System.out.println("Any values outside of these ranges will be clamped. 'n' is any maximum.\n");
-		System.out.println("The last argument, <arg11>, is the filename to a text file containing encrypted text.");
-		System.out.println("In the working directory are the four encrypted texts provided by the assignment guidelines.");
-		System.out.println("For example, \"enc1.txt\", \"enc2.txt\", etc.\n");
+		System.out.println("The last argument, <arg11>, is the filename to a text file containing encrypted text.\n");
 	}
 }
