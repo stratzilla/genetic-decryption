@@ -75,12 +75,6 @@ public class runGeneticDecipher {
 		} catch (Exception e) {
 			return "";
 		}
-		/**
-		 * I noticed sometimes when copying the encrypted texts
-		 * from the assignment sheet, it would grab page numbers or
-		 * insert invalid characters. So we need to sanitize it based
-		 * on worst possible scenarios
-		 */
 		inFile.toLowerCase(); // make lowercase
 		inFile.replaceAll("[^a-z]",""); // remove invalid chars
 		inFile.replaceAll("\\s",""); // remove spaces
